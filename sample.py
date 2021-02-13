@@ -1,28 +1,15 @@
-# Program make a simple calculator
+# from functools import reduce
+# import datetime
+# import math
 
-# This function adds two numbers
-def add(x, y):
-    return x + y
+# begin_time = datetime.datetime.now()
 
-# This function subtracts two numbers
-def subtract(x, y):
-    return x - y
-
-# This function multiplies two numbers
-def multiply(x, y):
-    return x * y
-
-# This function divides two numbers
-def divide(x, y):
-    return x / y
+# def factors(n):
+#     temp = set(x for i in range(1, int(math.sqrt(n)) + 1) if n % i == 0 for x in (i, n // i))
+#     return len(temp)
 
 
-print("Select operation.")
-print("1.Add")
-print("2.Subtract")
-print("3.Multiply")
-print("4.Divide")
+# print(factors(12))
 
-while True:
-    # Take input from the user
-    choice = input("Enter choice(1/2/3/4): ")
+print(10 ** 12)
+print(9223372036854775807)
